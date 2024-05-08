@@ -90,7 +90,7 @@ const ChoosingListingCategories = () => {
 
 		try {
 			const response = await fetch(
-				"http://localhost:8000/api/pool/createPool",
+				"https://euiryebbnmbvd.cicc.app/api/pool/createPool",
 				{
 					method: "POST",
 					headers: {

@@ -28,7 +28,7 @@ const ListingCardContent = () => {
 					};
 
 					const response = await axios.get(
-						"http://localhost:8000/api/pool/allPool",
+						"https://euiryebbnmbvd.cicc.app/api/pool/allPool",
 						{ headers }
 					);
 					setPoolData(response.data.allPool);

@@ -34,7 +34,7 @@ const PoolDetails = ({ params }: any) => {
 		const fetchPoolDetails = async () => {
 			try {
 				const response = await axios.post(
-					`http://localhost:8000/api/pool/getPoolById`,
+					`https://euiryebbnmbvd.cicc.app/api/pool/getPoolById`,
 					JSON.stringify({ _id: poolId }), // Assuming the server is expecting a property named "_id"
 					{
 						headers: {
